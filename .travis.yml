@@ -1,0 +1,10 @@
+language: generic
+deploy:
+  provider: deis
+  controller: http://deis.35.188.153.251.nip.io
+  app: test
+  username: travis
+  password:
+    secure: TRBAoMX7FWo7rW6Jn6mORZ7lpJRTxwDUFJhogM8FrQ30M5qKd9/QDNYG4DcZdjnfwWbjYskak87gQW2UbWUNG9izc4v9pep58keU2b3zWJuu+6PPCl2UVkGTa3Txj7ToLCml5eD5PfczKTx6zB3PeJfxSLaZbSTTyNkk8OIwYxHZgDYA2kSiFQ97EpJ+dSUxITsKoNn7pAazH7BJFwxhh4er5L8OViJk6APw9JPluatackcNmDd3zBI9tEKmgnmgJak0KN3lrPguofA4oCyF4jkxp5Vc0svmQiK89oLrWF2Mem4HrxA6Bt+z4sSpqizxEfF8hIrF6/1W2fMGfxrTZ8t0paOqUC5bjnWc0V+1uCTNepk4tMSqAkatmXQ79HlYlFf3rWGFUb04T/qfbY5JRsZ4flItUhRlNS6YpjBnwEISoUCRTay4z8EwGmjvmhhWSjsY7N9PDrNlotxqQtJKCt+VYxodFI6VJlIz9dz1H4jVzKbcGT6tsIOCu7hfzY+gvZNr1bfs4Mf7ooCPisCEq7PkASKPiNT2+ZtuuG/IckL/MUqJxOZsU4mLA2hRyu0cPgQu0uCVd+4A/Pwr02GNuDo6lH1/J7tgzW+TkmN1Se15Yx/2tDFawodFvsg9HRYqrn7vWvlmPHirNabewJ+y1VrT8jJBhzpKn9halgDqWeQ=
+  on:
+    repo: k2p-ed/static-deis-example
